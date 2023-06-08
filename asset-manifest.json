@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/excelify/static/css/main.822d30b1.css",
+    "main.js": "/excelify/static/js/main.d6348a1f.js",
+    "static/js/787.67a17c54.chunk.js": "/excelify/static/js/787.67a17c54.chunk.js",
+    "static/media/hero-img.jpg": "/excelify/static/media/hero-img.d0b44650b568d9f5bca9.jpg",
+    "index.html": "/excelify/index.html",
+    "main.822d30b1.css.map": "/excelify/static/css/main.822d30b1.css.map",
+    "main.d6348a1f.js.map": "/excelify/static/js/main.d6348a1f.js.map",
+    "787.67a17c54.chunk.js.map": "/excelify/static/js/787.67a17c54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.822d30b1.css",
+    "static/js/main.d6348a1f.js"
+  ]
+}
