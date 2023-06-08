@@ -5,6 +5,7 @@ nav {
   background: #1b2430;
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  width: 100%;
 }
 #navbar {
   display: flex;
@@ -69,6 +70,7 @@ nav {
 
   #navbar.active {
     right: 0px;
+    z-index: 999;
   }
 
   #navbar li {

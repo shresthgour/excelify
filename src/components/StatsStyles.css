@@ -1,0 +1,71 @@
+.stat-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  margin-bottom: 7rem;
+}
+
+.stat-container{
+  display: flex;
+  flex: 2 1 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0.75rem;
+}
+
+.stat-val{
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  background: #5FB83E;
+  background: linear-gradient(to right, #5FB83E 0%, #3A7D1D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+}
+
+.stat-val span{
+  font-size: 39px;
+}
+
+.stat-title{
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-left: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .stat-sec{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .stat-container{
+    flex-direction: row;
+    margin: 0.75rem 2rem;
+  }
+  .stat-val {
+    font-size: 35px;
+    line-height: 53px;
+  }
+}
+
+@media (min-width: 480px) {
+  .stat-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .stat-val {
+    font-size: 30px;
+    line-height: 53px;
+  }
+}
+

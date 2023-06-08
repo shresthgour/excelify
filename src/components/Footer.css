@@ -1,0 +1,21 @@
+.foot{
+  height: 80px;
+  background: #5FB83E;
+  background: linear-gradient(to right, #5FB83E 0%, #3A7D1D 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text-foot{
+  font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .foot{
+    height: 50px;
+  }
+  .main-text-foot{
+    font-size: 15px;
+  }
+}
